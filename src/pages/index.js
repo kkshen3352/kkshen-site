@@ -198,7 +198,7 @@ function IndexPage({ data }) {
             </Flex> */}
         </Box>
         <Flex
-          maxWidth="1920px"
+          // maxWidth="1920px"
           width="100%"
           alignItems="center"
           justifyContent="center"
@@ -243,12 +243,14 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
-              width="100%"
-              height={{ base: "400px", lg: "550px" }}
+              boxSize={{base:"420px", lg:"640px"}}
+              // maxWidth={{ base: "414px", lg: "768px" }}
+              // maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
+              // width="100%"
+              // height={{ base: "400px", lg: "550px" }}
               src={require("../images/altumcode-P2SkP_PXhlU-unsplash.jpg")}
               alt={require("../images/altumcode-P2SkP_PXhlU-unsplash.jpg")}
-              objectFit="cover"
+              // objectFit="cover"
             />
           </Flex>
           <Flex alignItems="center" justifyContent="center" margin="0 auto">
@@ -287,9 +289,11 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
-              width="100%"
-              height={{ base: "400px", lg: "550px" }}
+              // boxSize="620px"
+              boxSize={{base:"420px", lg:"640px"}}
+              // maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
+              // width="100%"
+              // height={{ base: "400px", lg: "550px" }}
               background="#55848B"
               src={require("../images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg")}
               alt={require("../images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg")}
@@ -332,9 +336,10 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
-              width="100%"
-              height={{ base: "400px", lg: "550px" }}
+              boxSize={{base:"420px", lg:"640px"}}
+              // maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
+              // width="100%"
+              // height={{ base: "400px", lg: "550px" }}
               src={require("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg")}
               alt={require("../images/emile-perron-xrVDYZRGdw4-unsplash.jpg")}
               objectFit="cover"
