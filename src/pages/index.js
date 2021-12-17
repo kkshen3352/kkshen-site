@@ -243,7 +243,7 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              boxSize={{base:"420px", sm:"633.5px"}}
+              boxSize={{ base: "420px", sm: "633.5px" }}
               src={require("../images/altumcode-P2SkP_PXhlU-unsplash.jpg")}
               alt={require("../images/altumcode-P2SkP_PXhlU-unsplash.jpg")}
               objectFit="cover"
@@ -285,7 +285,7 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              boxSize={{base:"420px", sm:"633.5px"}}
+              boxSize={{ base: "420px", sm: "633.5px" }}
               background="#55848B"
               src={require("../images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg")}
               alt={require("../images/artem-sapegin-b18TRXc8UPQ-unsplash.jpg")}
@@ -328,7 +328,7 @@ function IndexPage({ data }) {
             </Box>
             <Box
               as="img"
-              boxSize={{base:"420px", sm:"633.5px"}}
+              boxSize={{ base: "420px", sm: "633.5px" }}
               // maxWidth={{ base: "414px", sm: "768px", lg: "634.3px" }}
               // width="100%"
               // height={{ base: "400px", lg: "550px" }}

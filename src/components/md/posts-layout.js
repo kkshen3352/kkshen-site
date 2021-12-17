@@ -9,11 +9,21 @@ export default ({ children }) => (
   <>
     <Layout>
       <Provider>
-        <main>{children}</main>
+        <main>
+          <Box
+            maxWidth="960px"
+            padding="1.45rem 1.0875rem 1.45rem"
+            alignItems="center"
+            justifyContent="center"
+            margin="0 auto"
+          >
+            {children}
+            <Box marginLeft="2rem" textDecoration="underline">
+              <Link to="/blog">← Back to posts</Link>
+            </Box>
+          </Box>
+        </main>
       </Provider>
-      <Box marginLeft="2rem" textDecoration="underline">
-        <Link to="/blog">← Back to posts</Link>
-      </Box>
     </Layout>
   </>
 )
